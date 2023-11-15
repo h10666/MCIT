@@ -1,0 +1,16 @@
+train_features_path: '/opt/data/private/MCIT/experient/data/1051009/newflickr/train_img_flickr_dict.npy'
+valid_features_path: '/opt/data/private/MCIT/experient/data/1051009/newflickr/valid_img_flickr_dict.npy'
+train_caption_path: '/opt/data/private/MCIT/experient/data/1051009/newflickr/train_caption_flickr.json'
+valid_caption_path: '/opt/data/private/MCIT/experient/data/1051009/newflickr/valid_caption_flickr.json'
+
+model_path: '/opt/data/private/BERT/CNTR/adv_train/fin_model_true.pkl'
+
+epoch: 20
+batch_size: 32
+val_batch: 500
+image_dim: 2048
+cap_dim: 768
+hidden_dim: 768
+
+
+

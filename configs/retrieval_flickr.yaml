@@ -1,0 +1,10 @@
+valid_features_path: '/opt/data/private/MCIT/experient/data/1051009/newflickr/test_img_flickr_dict.npy'
+valid_caption_path: '/opt/data/private/MCIT/experient/data/1051009/newflickr/test_caption_flickr.json'
+
+#1.经coco训练的预训练模型的flickr，可以对比其它预训练模型下的flicr实验结果
+#model_path: '/opt/data/private/BERT/CNTR/adv_train/fin_model_true.pkl'
+#2.微调后的flickr，对比微调后的flickr实验结果
+model_path: '/opt/data/private/BERT/CNTR/adv_train/fin_model_flickr_true.pkl'
+
+
+

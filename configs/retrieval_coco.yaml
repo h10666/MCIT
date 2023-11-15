@@ -1,0 +1,7 @@
+valid_features_path: '/opt/data/private/MCIT/experient/data/1051009/COCO_dict/image_test_features.npy'
+valid_caption_path: '/opt/data/private/MCIT/experient/data/1051009/COCO_dict/test_captions.json'
+
+model_path: '/opt/data/private/BERT/CNTR/adv_train/fin_model_true.pkl'
+
+
+

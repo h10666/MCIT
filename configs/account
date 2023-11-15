@@ -1,0 +1,4 @@
+
+best_model：
+coco：'/opt/data/private/BERT/CNTR/adv_train/fin_model_true.pkl'
+flickr：'/opt/data/private/BERT/CNTR/adv_train/fin_model_flickr_true.pkl'

@@ -1,0 +1,22 @@
+train_features_path: '/opt/data/private/MCIT/experient/data/1051009/COCO_dict/image_train_features.npy'
+valid_features_path: '/opt/data/private/MCIT/experient/data/1051009/COCO_dict/image_val_features.npy'
+train_caption_path: '/opt/data/private/MCIT/experient/data/1051009/COCO_dict/train_captions.json'
+valid_caption_path: '/opt/data/private/MCIT/experient/data/1051009/COCO_dict/valid_captions.json'
+
+#前30epoch：优化器参数：前30epoch：lr:1e-4->lr_min:1e-5
+#后20epoch：优化器参数：后20epoch：lr:1e-5->lr_min:1e-6
+#因为模型很大，训练太长时间会被集群kill掉，所以分两阶段训练
+#所以，后20epoch的model_path需要使用第30epoch保存的训练模型路径
+model_path: '/opt/data/private/BERT/CNTR/adv_train/fin_model_true.pkl'
+lr: 1e-4
+lr_min: 1e-5
+epoch: 30
+
+batch_size: 36
+val_batch: 500
+image_dim: 2048
+cap_dim: 768
+hidden_dim: 768
+
+
+
